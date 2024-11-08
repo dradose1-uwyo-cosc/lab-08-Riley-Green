@@ -68,7 +68,7 @@ def slope_intercept(m, b, a, z):
         y_values.append(y)
     return y_values
 
-import math
+
 print("*" * 75)
 
 
@@ -79,7 +79,7 @@ print("*" * 75)
 # Create a loop like above to prompt the user for input for the three values
 # Create a second function that just does the square root operation 
     # If the number you are trying to take the square root of is negative, return null
-
+import math
 def safe_sqrt(x):
     if x < 0:
         return None
